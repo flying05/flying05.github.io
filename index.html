@@ -4,154 +4,221 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Linxiang Peng</title>
+        <title>Linxiang Peng</title>
 
-	<link href="./css/bootstrap.min.css" rel="stylesheet">
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Lato:300,400,700" rel="stylesheet">
+
+        <!-- CSS -->
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="./assets/academicons-1.7.0/css/academicons.css"/>
-    	<link rel="stylesheet" href="./assets/font-awesome-4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="./assets/font-awesome-4.7.0/css/font-awesome.min.css"/>
+        <link href="./css/custom.css" rel="stylesheet">
     </head>
 
     <body>
 
-      <div style="height:10px;"></div>
-      <!-- Navigation bar -->
-      
-      <div class="navbar navbar-default  navbar-fixed-top bg-info">
+    <!-- Navigation bar -->
+    <div class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-          <div class="navbar-header">
-          
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-          <div class="navbar-collapse collapse" id="navbar-main">
-             
-            <ul class="nav navbar-nav navbar-left">
-              <li ><a href="index.html#aboutme">Home</a></li>
-              <li ><a href="#news">News</a></li>
-              <li ><a href="#research">Research</a></li>
-              <li ><a href="#projects">Projects</a></li>
-		<li ><a href="./img/cv.pdf">Resume</a></li>
-            </ul>
-          </div>
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Linxiang Peng</a>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="./img/cv.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <div style="height:80px;"></div>
-     
+    <div style="height:80px;"></div>
 
-      <!-- end of navigation bar -->
+    <!-- CONTENTS -->
+    <div class="container" id="home">
+        
+        <!-- ================================================================== -->
+        <!-- PROFILE SECTION -->
+        <!-- ================================================================== -->
+        <div class="row" style="margin-bottom: 60px;">
+            <div class="col-sm-4 col-md-3">
+                <div class="thumbnail">
+                    <!-- [EDIT]: Replace with your photo path -->
+                    <img src="./img/p.jpg" alt="Linxiang Peng">
+                </div>
+            </div>
 
-      <!-- CONTENTS -->
-      <div class="container">
-        <!-- Aboutme -->
-        <!--<div id="aboutme"></div> -->
-        <div class="row">
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <a class="thumbnail">
-              <img src="./img/p.jpg" alt="Linxiang Peng" class="img-rounded">
-            </a>            
-          </div>
+            <div class="col-sm-8 col-md-9 profile-info">
+                <h1 class="text-info">Linxiang Peng</h1>
+                <h4>Undergraduate Student</h4>
+                <p class="text-muted">University of Science and Technology of China (USTC)</p>
+                
+                <div class="social-icons" style="margin-top: 15px; margin-bottom: 20px;">
+                    <!-- [EDIT]: Update your links here -->
+                    <a href="mailto:plx@mail.ustc.edu.cn" title="Email"><i class="fa fa-envelope-square fa-2x"></i></a>
+                    <a href="#" title="Google Scholar"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+                    <a href="#" title="GitHub"><i class="fa fa-github-square fa-2x"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                </div>
 
-          <div class="col-xs-10 col-sm-6 col-md-4">
-            <h1 class="text-info">Linxiang Peng</h1>
-            <h4 class="text-info">Undergraduate Student</h4>
-	    <h5>
-	    	<a href="mailto:plx@mail.ustc.edu.cn" class="text-info" title="e-Mail"><i class="fa fa-envelope-square fa-2x"></i></a>
-            	<a href="#" class="text-info" title="Google Scholar"><i class="ai ai-google-scholar-square ai-2x"></i></a>
-		<a href="#" class="text-info" title="GitHub"><i class="fa fa-github-square fa-2x"></i></a>
-            	<a href="#" class="text-info" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
-	    </h5>
-	    <! --
-		<img src="./img/inria.png" alt="inria" style="width:40%">
-          </div>
+                <p class="text-justify">
+                    <!-- [EDIT]: Edit your biography here -->
+                    I am an undergraduate student at <a href='#' class="text-info">USTC</a>. 
+                    My research interests include <strong>computer vision</strong> and <strong>deep learning</strong>. 
+                    I am currently looking for research opportunities and internships.
+                </p>
+            </div>
         </div>
-		
-         
-         <p class="text-body", align="justify">
-         I am an undergraduate student at <a href='#' class="text-info">[Your University]</a>. My research interests include computer vision and deep learning. I am currently looking for research opportunities and internships.
-	
-        <!-- News -->
+
+        <hr>
+
+        <!-- ================================================================== -->
+        <!-- NEWS SECTION -->
+        <!-- ================================================================== -->
         <div class="row" id="news" style="padding-top:60px; margin-top:-60px;">
-          <div class="col-md-12">
-            <h2>News</h2>
-          </div>
+            <div class="col-md-12">
+                <h2>News</h2>
+                
+                <!-- [TEMPLATE]: Copy this block to add a new news item -->
+                <!-- 
+                <div class="news-item">
+                    <div class="news-date">MM / YYYY</div>
+                    <div class="news-content">
+                        Your news content goes here.
+                    </div>
+                </div> 
+                -->
+
+                <!-- [EDIT]: Add your news items below -->
+                
+                <div class="news-item">
+                    <div class="news-date">12 / 2025</div>
+                    <div class="news-content">
+                        Welcome to my homepage!
+                    </div>
+                </div>
+
+            </div>
         </div>
 
-	<div class="row">
-          <div class="col-sm-1 col-md-1">
-            <span class="label label-info">12 / 2025</span>
-          </div>
-          <div class="col-sm-11 col-md-11">
-                 Welcome to my homepage!
-          </div>
+        <hr>
+
+        <!-- ================================================================== -->
+        <!-- RESEARCH SECTION -->
+        <!-- ================================================================== -->
+        <div class="row" id="research" style="padding-top:60px; margin-top:-60px;">
+            <div class="col-md-12">
+                <h2>Research</h2>
+                
+                <!-- [TEMPLATE]: Copy this block to add a new research paper -->
+                <!--
+                <div class="research-item">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="path/to/teaser.jpg" class="research-thumb" alt="Project Teaser">
+                        </div>
+                        <div class="col-md-9">
+                            <h3 class="research-title"><a href="#">Paper Title</a></h3>
+                            <p class="research-authors">
+                                <strong>Your Name</strong>, Co-author 1, Co-author 2
+                            </p>
+                            <p class="research-venue">Conference Name (CVPR/ICCV/ECCV), Year</p>
+                            <p class="research-desc">
+                                Short description of the paper.
+                                <br>
+                                <a href="#">[Paper]</a> <a href="#">[Code]</a> <a href="#">[Project Page]</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                -->
+
+                <!-- [EDIT]: Add your research items below -->
+                <p>Coming soon...</p>
+
+            </div>
         </div>
-        <div style="height:3px;"></div>
 
-        <!-- end of news -->
+        <hr>
 
-        <!-- Research -->
-        <div class="row"  id="research" style="padding-top:60px; margin-top:-60px;">
-          <div class="col-md-12">
-            <h2>Research</h2>
-            <p>Coming soon...</p>
-          </div>
-        </div>
-
-        <!-- Projects -->
+        <!-- ================================================================== -->
+        <!-- PROJECTS SECTION -->
+        <!-- ================================================================== -->
         <div class="row" id="projects" style="padding-top:60px; margin-top:-60px;">
             <div class="col-md-12">
                 <h2>Projects & Demos</h2>
-                <div class="row">
-                    <div class="col-md-12">
-                        <h4>Project Demo Video</h4>
-                        <p>Here is a demo video of my research work.</p>
-                        <!-- Replace 'demo.mp4' with your actual video filename -->
-                        <video width="100%" controls>
-                            <source src="static/videos/demo.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
+
+                <!-- [TEMPLATE]: Copy this block to add a new project -->
+                <!--
+                <div class="research-item">
+                    <h3 class="research-title">Project Name</h3>
+                    <p>Description of the project.</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video controls class="embed-responsive-item">
+                            <source src="path/to/video.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>
+                -->
+
+                <!-- [EDIT]: Add your projects below -->
+                <div class="research-item">
+                    <h3 class="research-title">Project Demo Video</h3>
+                    <p>Here is a demo video of my research work.</p>
+                    <!-- Replace 'demo.mp4' with your actual video filename -->
+                    <!-- 
+                    <video width="100%" controls>
+                        <source src="static/videos/demo.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video> 
+                    -->
+                    <p><em>Video placeholder (uncomment code to show video)</em></p>
+                </div>
+
             </div>
         </div>
-	
-	 	<div class="row" id="teaching" style="padding-top:60px; margin-top:-60px;">
-          <div class="col-md-12">
-            <h2>Academic activities</h2>
-            <div class="row">
-				<div class="col-sm-1 col-md-1">
-                  <span class="label label-info"> Reviewer </span>
-              	</div>
-				<div class="col-sm-11 col-md-11">
-                	 Coming soon...
-              	</div>
-				</div>
-            
-	  	</div>
-	 	</div>
 
+        <hr>
 
+        <!-- ================================================================== -->
+        <!-- ACADEMIC ACTIVITIES -->
+        <!-- ================================================================== -->
+        <div class="row" id="teaching" style="padding-top:60px; margin-top:-60px;">
+            <div class="col-md-12">
+                <h2>Academic Activities</h2>
+                
+                <div class="news-item">
+                    <div class="news-date">Reviewer</div>
+                    <div class="news-content">
+                        Coming soon...
+                    </div>
+                </div>
 
-	
-      </div> <!-- end of contents -->
-      <hr>
+            </div>
+        </div>
 
+    </div> <!-- end of contents -->
 
-      <div class="container">
+    <div class="container">
         <footer>
-          <p align="right"><small>Copyright © Linxiang Peng</small></p>
+            <p class="text-right"><small>Copyright © Linxiang Peng</small></p>
         </footer>
         <div style="height:10px;"></div>
-      </div>
+    </div>
 
-      <!-- Bootstrap core JavaScript -->
-      <!-- Placed at the end of the document so the pages load faster -->
-      <script src="jq/jquery-1.11.1.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/docs.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="jq/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
 
     </body>
 </html>
