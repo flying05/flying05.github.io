@@ -1,8 +1,8 @@
 /* Global Styles */
 body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 17px;
+    line-height: 1.55;
     color: #333;
     background-color: #f9f9f9;
 }
@@ -33,6 +33,12 @@ a:hover {
 .navbar-default .navbar-nav > li > a {
     color: #555;
     font-weight: 500;
+    font-size: 18px;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 26px;
+    font-weight: 600;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -60,11 +66,27 @@ a:hover {
 .profile-info h1 {
     margin-top: 0;
     font-weight: 700;
+    font-size: 46px;
+    line-height: 1.15;
+}
+
+.profile-info h4 {
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    font-size: 18px;
 }
 
 .social-icons a {
     margin-right: 10px;
     color: #555;
+}
+
+.social-icons i {
+    font-size: 2.35em;
 }
 
 .social-icons a:hover {
@@ -75,8 +97,9 @@ a:hover {
 h2 {
     border-bottom: 2px solid #3498db;
     padding-bottom: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
     display: inline-block;
+    font-size: 34px;
 }
 
 /* News Section */
@@ -84,6 +107,7 @@ h2 {
     margin-bottom: 15px;
     display: flex;
     align-items: baseline;
+    font-size: 17px;
 }
 
 .news-date {
@@ -100,7 +124,7 @@ h2 {
 /* Research / Projects Section */
 .research-item {
     background: #fff;
-    padding: 20px;
+    padding: 24px;
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
@@ -115,13 +139,14 @@ h2 {
 .research-thumb {
     width: 100%;
     border-radius: 4px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
 .research-title {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .research-authors {
@@ -133,6 +158,40 @@ h2 {
 .research-venue {
     color: #2c3e50;
     font-weight: 500;
+    font-size: 18px;
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+
+    .profile-info h1 {
+        font-size: 36px;
+        margin-top: 10px;
+    }
+
+    .profile-info h4 {
+        font-size: 21px;
+    }
+
+    .profile-info p,
+    .news-item,
+    .research-venue {
+        font-size: 16px;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .research-title {
+        font-size: 22px;
+    }
 }
 
 /* Footer */

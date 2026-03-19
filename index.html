@@ -34,7 +34,7 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#news">News</a></li>
                     <li><a href="#research">Research</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
                     <li><a href="./img/cv.pdf" target="_blank">Resume</a></li>
                 </ul>
             </div>
@@ -50,14 +50,14 @@
         <!-- PROFILE SECTION -->
         <!-- ================================================================== -->
         <div class="row" style="margin-bottom: 60px;">
-            <div class="col-sm-4 col-md-3">
+            <div class="col-sm-5 col-md-3">
                 <div class="thumbnail">
                     <!-- [EDIT]: Replace with your photo path -->
                     <img src="./img/p.jpg" alt="Linxiang Peng">
                 </div>
             </div>
 
-            <div class="col-sm-8 col-md-9 profile-info">
+            <div class="col-sm-7 col-md-9 profile-info">
                 <h1 class="text-info">Linxiang Peng</h1>
                 <h4>Undergraduate Student</h4>
                 <p class="text-muted">University of Science and Technology of China (USTC)</p>
@@ -73,7 +73,7 @@
                 <p class="text-justify">
                     <!-- [EDIT]: Edit your biography here -->
                     I am an undergraduate student at <a href='#' class="text-info">USTC</a>. 
-                    My research interests include <strong>computer vision</strong> and <strong>deep learning</strong>. 
+                    My research interests include <strong>video understanding</strong> and <strong>VLM/LLM post-training</strong>. 
                     I am currently looking for research opportunities and internships.
                 </p>
             </div>
@@ -99,7 +99,12 @@
                 -->
 
                 <!-- [EDIT]: Add your news items below -->
-                
+                <div class="news-item">
+                    <div class="news-date">01 / 2026</div>
+                    <div class="news-content">
+                        Our paper has been accepted to ICME 2026!
+                    </div>
+                </div>
                 <div class="news-item">
                     <div class="news-date">12 / 2025</div>
                     <div class="news-content">
@@ -123,10 +128,10 @@
                 <!--
                 <div class="research-item">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-5">
                             <img src="path/to/teaser.jpg" class="research-thumb" alt="Project Teaser">
                         </div>
-                        <div class="col-md-9">
+                        <div class="col-md-7">
                             <h3 class="research-title"><a href="#">Paper Title</a></h3>
                             <p class="research-authors">
                                 <strong>Your Name</strong>, Co-author 1, Co-author 2
@@ -145,64 +150,25 @@
                 <!-- [EDIT]: Add your research items below -->
                 <div class="research-item">
                     <div class="row">
-                        <div class="col-md-3">
-                            <img src="path/to/teaser.jpg" class="research-thumb" alt="Project Teaser">
+                        <div class="col-md-5">
+                            <img src="./img/fis-ot.png" class="research-thumb" alt="Project Teaser">
                         </div>
-                        <div class="col-md-9">
-                            <h3 class="research-title"><a href="#">Paper Title</a></h3>
+                        <div class="col-md-7">
+                            <h3 class="research-title"><a href="#">FIS-OT: Feature-Induced Optimal Transport for Unsupervised Action Segmentation</a></h3>
                             <p class="research-authors">
-                                <strong>Your Name</strong>, Co-author 1, Co-author 2
+                                <strong>Linxiang Peng</strong>, Xinyao Qin, Jinhan Li, Di Yang, Jiangtao Wang
                             </p>
-                            <p class="research-venue">Conference Name (CVPR/ICCV/ECCV), Year</p>
+                            <p class="research-venue">ICME 2026</p>
                             <p class="research-desc">
-                                Short description of the paper.
+                                We proposed FIS-OT, a feature-induced optimal transport framework for unsupervised action segmentation. By coupling local representation learning with global structural alignment in a cyclic optimization process, FIS-OT overcomes the rigid priors and confirmation bias present in prior OT-based methods.
                                 <br>
-                                <a href="#">[Paper]</a> <a href="#">[Code]</a> <a href="#">[Project Page]</a>
+                                <a href="#">[Paper]</a> <a href="https://github.com/flying05/FIS-OT">[Code]</a>
                             </p>
                         </div>
                     </div>
                 </div>
                
-                <p>Coming soon...</p>
-
-            </div>
-        </div>
-
-        <hr>
-
-        <!-- ================================================================== -->
-        <!-- PROJECTS SECTION -->
-        <!-- ================================================================== -->
-        <div class="row" id="projects" style="padding-top:60px; margin-top:-60px;">
-            <div class="col-md-12">
-                <h2>Projects & Demos</h2>
-
-                <!-- [TEMPLATE]: Copy this block to add a new project -->
-                <!--
-                <div class="research-item">
-                    <h3 class="research-title">Project Name</h3>
-                    <p>Description of the project.</p>
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <video controls class="embed-responsive-item">
-                            <source src="path/to/video.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-                -->
-
-                <!-- [EDIT]: Add your projects below -->
-                <div class="research-item">
-                    <h3 class="research-title">Project Demo Video</h3>
-                    <p>Here is a demo video of my research work.</p>
-                    <!-- Replace 'demo.mp4' with your actual video filename -->
-                    <!-- 
-                    <video width="100%" controls>
-                        <source src="static/videos/demo.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video> 
-                    -->
-                    <p><em>Video placeholder (uncomment code to show video)</em></p>
-                </div>
+            
 
             </div>
         </div>
@@ -219,7 +185,7 @@
                 <div class="news-item">
                     <div class="news-date">Reviewer</div>
                     <div class="news-content">
-                        Coming soon...
+                        ICME 2026
                     </div>
                 </div>
 
